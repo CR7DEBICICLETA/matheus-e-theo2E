@@ -1,6 +1,6 @@
 @import url(header.css);
 :root{
 --cor-de-fundo:#56d43d;
---branco:#ffff
---laranja:#eb9b00;
+--branco:#ffff;
+--laranja: #eb9b00;
 }
