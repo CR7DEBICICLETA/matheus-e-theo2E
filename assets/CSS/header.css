@@ -1,5 +1,5 @@
 body{
-    background-color: #56d43d;
+    background-color: #6787e0;
 }
 
 .cabecalho{
@@ -34,7 +34,9 @@ body{
     position: absolute;
     width: 60vw;
 }
-
+.menu-checkbox{
+    display: none;
+}
 .menu-checkbox:checked~ .menu-lista{
     display: block;
 }
