@@ -1,0 +1,10 @@
+ .carrossel-titulo{
+    background-color: white;
+color: var(--branco);
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+padding: 1em, oem, 0.5em, 0em;
+font-style: initial;
+
+ }
