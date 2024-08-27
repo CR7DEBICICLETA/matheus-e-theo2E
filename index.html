@@ -59,7 +59,7 @@
             Novos Lançamentos
         </h2>
         <div class="swiper">
-            <div class="swiper-wraper">
+            <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="assets/IMG/AluraBooks/ApacheKafka.png" alt=""></div>
                 <div class="swiper-slide"><img src="assets/IMG/AluraBooks/Liderança.png" alt=""></div>
                 <div class="swiper-slide"><img src="assets/IMG/AluraBooks/Javascript.png" alt=""></div>
@@ -77,6 +77,10 @@
              const swiper = new Swiper('.swiper', {
                  spaceBetween: 10,
                  slidesPerView: 3,
+                 pagination:{
+                    el:"swiper-pagination",
+                    type:bullets
+                 }
           });
          </script>
     </body>
