@@ -30,6 +30,17 @@ font-style: initial;
    justify-content: space-between;
    align-items: center;
  }
+ .descricao-titulo{
+    color: var(--laranja);
+    font-weight:700;
+    font-size 20px; 
+ }
+ .card-botoes{
+    display: flex;
+    font-weight: 700;
+    font-size: 20px;
+    
+ }
  /*
  PARA OTITULO PRINCIPAL:
 
